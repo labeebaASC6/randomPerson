@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    color: rgb(212, 212, 212);
+    background-color: rgb(41, 41, 41);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.empty_space_becasue_why_not {
+    height: 100px;
+}
+.heading_banner {
+    height: 60px;
+    width: 100%;
+    background: linear-gradient(rgb(94, 110, 180), rgb(26, 26, 61));
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.377);
+    padding: 10px;
+    position: fixed;
+}
+.heading_banner button {
+    padding: 1px;
+    border: rgba(245, 245, 245, 0.356) 1px solid;
+    cursor: pointer;
+    background: 0;
+    color: whitesmoke;
+    width: 100px;
+    height: 50%;
+    border-radius: 50px;
+    background: linear-gradient(rgb(188, 189, 248), rgb(67, 76, 119));
+}
+.heading_banner input {
+    color: whitesmoke;
+    background: 0;
+    border: solid whitesmoke 1px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.heading_banner button:active {
+    background: linear-gradient(rgb(57, 58, 121), rgb(151, 167, 235));
+}
+
+.root_container {
+    margin: 20px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-bottom: solid rgb(110, 119, 136) 2px;
+}
+img {
+    border: solid whitesmoke 4px;
+    border-radius: 50%;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.377);
+}
