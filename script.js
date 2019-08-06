@@ -9,7 +9,11 @@ function checkforNegative()
 {
     if(inputEl.value < 1)
     {
-        inputEl.value = 1;
+        inputEl.value = 1;      //dont let it be negative
+    }
+    if(inputEl.value > 4999)
+    {
+        inputEl.value = 4999;      //dont let it be above max
     }
 }
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
